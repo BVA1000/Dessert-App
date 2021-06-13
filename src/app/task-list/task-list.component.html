@@ -1,0 +1,14 @@
+<div id="body">
+    <h2>Dessert List</h2>
+    <img class="center" id="red" alt="RedVelvetCake" src="../../assets/images/redvelvet.jpg">
+    <ul>
+        <li *ngFor="let task of tasks">The {{task.name}} takes {{task.time}} to make and is a {{task.desc}}. The items
+            needed to make the {{task.name}} are {{task.items}}.
+            <br />
+            <a id="buttons" [routerLink]="['/edit', task.id]"><button>EDIT</button></a>
+            <button id="buttons" (click)=deleteTask(task.id)>DELETE</button>
+            <br />
+        </li>
+    </ul>
+    <p>BVA TECHNOLOGIES INC. COPYRIGHT 2021</p>
+</div>

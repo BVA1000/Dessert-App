@@ -1,0 +1,52 @@
+#body {
+    background-color: rgb(255, 217, 2);
+    border: solid 3px rgb(255, 217, 2);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+}
+
+#lemon {
+    height: 300px;
+    width: 450px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    background-color: rgb(255, 217, 2);
+    border: solid 2px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 25px;
+    padding: 10px;
+    height: 30px;
+    width: 375px;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(255, 217, 2);
+    border: solid 2px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 35px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
